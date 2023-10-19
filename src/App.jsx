@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 import Navber from './Navber/Navber'
 import { Outlet } from 'react-router-dom'
@@ -13,7 +12,7 @@ function App() {
     <>
       <Navber></Navber>
       <div className='min-h-[calc(100vh-300px)]'>
-      <Outlet></Outlet>
+        <Outlet></Outlet>
       </div>
       <Footer></Footer>
     </>
