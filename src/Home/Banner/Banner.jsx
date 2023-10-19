@@ -11,7 +11,7 @@ const Banner = () => {
                     {/* ------------------------ */}
 
                     {/* ------------------------ */}
-                    <p className='text-black text-center md:text-left py-4  lg:ml-1 break-words w-80 md:w-96 mx-auto'>Explore thousands of job opportunities with all  the  information you need. Its your future. Come find it. Manage all  your job application from start to finish.</p>
+                    <p className='text-black text-center md:text-left py-4  lg:ml-1 break-words w-11/12 md:w-96 mx-auto'>Explore thousands of job opportunities with all  the  information you need. Its your future. Come find it. Manage all  your job application from start to finish.</p>
                     {/* ------------------------ */}
 
                     {/* ------------------------ */}
