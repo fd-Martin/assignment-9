@@ -20,3 +20,17 @@ const Home = () => {
 };
 
 export default Home;
+
+
+
+// 
+// 
+// 
+// 
+// 
+// 
+// https://i.ibb.co/9wvcJdL/netflix.png
+// https://i.ibb.co/wKbNcy8/nike.png
+// https://i.ibb.co/xG56ybB/nissan.png
+// https://i.ibb.co/1b0wLhN/puma.png
+// https://i.ibb.co/gwbSSPQ/wox.png

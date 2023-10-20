@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "companyLogo": "https://example.com/company1_logo.png",
+        "companyLogo": "https://i.ibb.co/vjX0865/adidas.png",
         "jobTitle": "Software Engineer",
         "companyName": "Tech Innovators Inc.",
         "remoteOrOnsite": "Remote",
@@ -17,7 +17,7 @@
     },
     {
         "id": 2,
-        "companyLogo": "https://example.com/company2_logo.png",
+        "companyLogo": "https://i.ibb.co/rbySzJg/apple.png",
         "jobTitle": "Marketing Manager",
         "companyName": "Global Marketing Solutions",
         "remoteOronsite": "Onsite",
@@ -33,7 +33,7 @@
     },
     {
         "id": 3,
-        "companyLogo": "https://example.com/company3_logo.png",
+        "companyLogo": "https://i.ibb.co/Wsbd12K/bmw.png",
         "jobTitle": "Graphic Designer",
         "companyName": "Creative Design Studio",
         "remoteOronsite": "Remote",
@@ -49,7 +49,7 @@
     },
     {
         "id": 4,
-        "companyLogo": "https://example.com/company4_logo.png",
+        "companyLogo": "https://i.ibb.co/x7GWbcB/fila.png",
         "jobTitle": "Financial Analyst",
         "companyName": "FinancePros Ltd.",
         "remoteOronsite": "Onsite",
@@ -65,7 +65,7 @@
     },
     {
         "id": 5,
-        "companyLogo": "https://example.com/company5_logo.png",
+        "companyLogo": "https://i.ibb.co/TLJngBx/honda.png",
         "jobTitle": "Registered Nurse",
         "companyName": "Healthcare Solutions Inc.",
         "remoteOronsite": "Onsite",
@@ -81,7 +81,7 @@
     },
     {
         "id": 6,
-        "companyLogo": "https://example.com/company6_logo.png",
+        "companyLogo": "https://i.ibb.co/VjLmwCP/ig.png",
         "jobTitle": "Customer Support Representative",
         "companyName": "ServiceFirst Co.",
         "remoteOronsite": "Remote",
@@ -96,3 +96,4 @@
         "email": "hr@servicefirst.com"
     }
 ]
+

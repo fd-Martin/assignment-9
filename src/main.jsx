@@ -23,7 +23,9 @@ const router = createBrowserRouter([
         loader: async () => {
           const res1 = await fetch('catagoryData.json');
           const categories = await res1.json();
-          return categories;
+          const res2 = await fetch('featuredJobDaba.json');
+          const jobs = await res2.json();
+          return { categories, jobs };
         },
       },
       {
