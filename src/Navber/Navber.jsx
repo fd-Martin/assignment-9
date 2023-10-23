@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Navber = () => {
     return (
-        <div className="bg-violet-200 ">
+        <div className="bg-violet-50 ">
             <div className="navbar max-w-4xl mx-auto px-5 py-2">
 
 
@@ -35,7 +35,8 @@ const Navber = () => {
 
 
                 <div className="navbar-end">
-                    <a className="btn">Button</a>
+                    <button className=' bg-gradient-to-r  from-blue-500 to-purple-500 text-base text-white px-5 py-2  rounded-md '><Link to="/" >Start Appling</Link></button>
+
                 </div>
             </div>
         </div>

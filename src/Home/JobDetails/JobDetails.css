@@ -1,0 +1,25 @@
+/* CSS file or within a style tag in your React component */
+.container {
+    position: relative;
+    height: 25vh;
+}
+
+.bg-image {
+    position: absolute;
+    width: 150px;
+    height: 90px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.top-left {
+    bottom: 0;
+    left: 0;
+    background-image: url('Vector1.png');
+}
+
+.bottom-right {
+    top: -70px;
+    right: 0;
+    background-image: url('Vector2.png');
+}

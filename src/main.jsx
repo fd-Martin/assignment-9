@@ -11,6 +11,7 @@ import Job from './Job/Job.jsx';
 import Home from './Home/Home.jsx';
 import Statistic from './Statistic/Statistic.jsx';
 import Blog from './Blog/Blog.jsx';
+import JobDetails from './Home/JobDetails/JobDetails.jsx';
 
 const router = createBrowserRouter([
   {
@@ -21,11 +22,21 @@ const router = createBrowserRouter([
         path: '/',
         element: <Home></Home>,
         loader: async () => {
-          const res1 = await fetch('catagoryData.json');
+          const res1 = await fetch('/catagoryData.json');
           const categories = await res1.json();
-          const res2 = await fetch('featuredJobDaba.json');
+          const res2 = await fetch('/featuredJobDaba.json');
           const jobs = await res2.json();
           return { categories, jobs };
+        },
+      },
+      {
+        path: '/jobs/:id',
+        element: <JobDetails></JobDetails>,
+        loader: async ({ params }) => {
+          const res2 = await fetch('/featuredJobDaba.json');
+          const jobs = await res2.json();
+          const jobDetails = jobs.find(job => job.id == params.id);
+          return jobDetails;
         },
       },
       {

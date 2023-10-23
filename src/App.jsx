@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import { Toaster } from 'react-hot-toast';
 import './App.css'
 import Navber from './Navber/Navber'
 import { Outlet } from 'react-router-dom'
@@ -14,6 +14,7 @@ function App() {
       <div className='min-h-[calc(100vh-300px)]'>
         <Outlet></Outlet>
       </div>
+      <Toaster></Toaster>
       <Footer></Footer>
     </>
   )
