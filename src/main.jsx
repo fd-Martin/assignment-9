@@ -14,11 +14,13 @@ import Blog from './Blog/Blog.jsx';
 import JobDetails from './Home/JobDetails/JobDetails.jsx';
 import AppliedJob from './AppliedJob/AppliedJog.jsx';
 import appliedJobLoader from './DataBase/customLoader.js';
+import Error from './Error/Error.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
+    errorElement:<Error></Error>,
     children: [
       {
         path: '/',
@@ -52,7 +54,7 @@ const router = createBrowserRouter([
         loader: () => fetch('assignmentData.json'),
       },
       {
-        path: '/blog',
+        path: '/blogs',
         element: <Blog></Blog>
       },
     ],

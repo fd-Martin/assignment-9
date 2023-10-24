@@ -1,8 +1,23 @@
-# React + Vite
+# JobLagbe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+JobLagbe is a web-based  job hiring website
 
-Currently, two official plugins are available:
+## Authors
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [@fd-Martin](https://github.com/fd-Martin)
+
+## Features
+
+
+- Jobs Catagories
+- Featured Jobs
+- Jobs Details
+- Show Applied Jobs
+- Blog Section
+- Error Components
+
+
+## Live Link
+
+https://github.com/fd-Martin
+

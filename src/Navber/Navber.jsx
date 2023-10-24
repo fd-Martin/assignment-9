@@ -16,11 +16,11 @@ const Navber = () => {
                             <li><Link to="/">Home</Link></li>
                             <li><Link to="/statistic">Statistic</Link></li>
                             <li><Link to="/job">Applied Job</Link></li>
-                            <li><Link to="/blog">Blog</Link></li>
+                            <li><Link to="/blogs">Blogs</Link></li>
 
                         </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+                    <Link to='/' className="btn btn-ghost normal-case text-xl">JobLagbe</Link>
                 </div>
 
 
@@ -29,7 +29,7 @@ const Navber = () => {
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/statistic">Statistic</Link></li>
                         <li><Link to="/job">Applied Job</Link></li>
-                        <li><Link to="/blog">Blog</Link></li>
+                        <li><Link to="/blogs">Blogs</Link></li>
                     </ul>
                 </div>
 
