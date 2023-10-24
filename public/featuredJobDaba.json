@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "id": "1",
         "companyLogo": "https://i.ibb.co/vjX0865/adidas.png",
         "jobTitle": "Software Engineer",
         "companyName": "Tech Innovators Inc.",
@@ -16,7 +16,7 @@
         "email": "hr@techinnovators.com"
     },
     {
-        "id": 2,
+        "id": "2",
         "companyLogo": "https://i.ibb.co/rbySzJg/apple.png",
         "jobTitle": "Marketing Manager",
         "companyName": "Global Marketing Solutions",
@@ -32,7 +32,7 @@
         "email": "info@globalmarketingsolutions.com"
     },
     {
-        "id": 3,
+        "id": "3",
         "companyLogo": "https://i.ibb.co/Wsbd12K/bmw.png",
         "jobTitle": "Graphic Designer",
         "companyName": "Creative Design Studio",
@@ -48,7 +48,7 @@
         "email": "info@creativedesignstudio.com"
     },
     {
-        "id": 4,
+        "id": "4",
         "companyLogo": "https://i.ibb.co/x7GWbcB/fila.png",
         "jobTitle": "Financial Analyst",
         "companyName": "FinancePros Ltd.",
@@ -64,7 +64,7 @@
         "email": "careers@financepros.com"
     },
     {
-        "id": 5,
+        "id": "5",
         "companyLogo": "https://i.ibb.co/TLJngBx/honda.png",
         "jobTitle": "Registered Nurse",
         "companyName": "Healthcare Solutions Inc.",
@@ -80,7 +80,7 @@
         "email": "jobs@healthcaresolutions.com"
     },
     {
-        "id": 6,
+        "id": "6",
         "companyLogo": "https://i.ibb.co/VjLmwCP/ig.png",
         "jobTitle": "Customer Support Representative",
         "companyName": "ServiceFirst Co.",

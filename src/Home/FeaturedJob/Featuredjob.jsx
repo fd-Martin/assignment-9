@@ -5,8 +5,8 @@ const Featuredjob = ({ job }) => {
     // console.log(job);
     const { id, companyLogo, jobTitle, companyName, location, salary } = job;
     return (
-        <div className='w-full '>
-            <div className=' rounded-md border-2   w-full p-5'>
+        <div className='w-4/5 mx-auto md:w-full  '>
+            <div className=' rounded-md border-2   w-full p-5 '>
                 <img src={companyLogo} className="rounded-xl w-44 h-44 p-4 mx-auto md:mx-0" alt="" />
                 <h2>{companyName}</h2>
                 <h2>{jobTitle}</h2>

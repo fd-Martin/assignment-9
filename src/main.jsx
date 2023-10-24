@@ -12,6 +12,8 @@ import Home from './Home/Home.jsx';
 import Statistic from './Statistic/Statistic.jsx';
 import Blog from './Blog/Blog.jsx';
 import JobDetails from './Home/JobDetails/JobDetails.jsx';
+import AppliedJob from './AppliedJob/AppliedJog.jsx';
+import appliedJobLoader from './DataBase/customLoader.js';
 
 const router = createBrowserRouter([
   {
@@ -41,7 +43,8 @@ const router = createBrowserRouter([
       },
       {
         path: '/job',
-        element: <Job></Job>,
+        element: <AppliedJob></AppliedJob>,
+        loader: appliedJobLoader,
       },
       {
         path: '/statistic',

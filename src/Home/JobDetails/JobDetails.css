@@ -1,7 +1,7 @@
 /* CSS file or within a style tag in your React component */
 .container {
     position: relative;
-    height: 25vh;
+    height: 200px;
 }
 
 .bg-image {
