@@ -26,7 +26,7 @@ const AppliedJob = () => {
 
                 {savedJob.length === 0 ? <Nojob></Nojob> :
 
-                    savedJob.map((job,i) => <SingleJob job={job} key={i}></SingleJob>)
+                    savedJob.map((job, i) => <SingleJob job={job} key={i}></SingleJob>)
 
                 }
 

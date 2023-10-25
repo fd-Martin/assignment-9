@@ -13,11 +13,11 @@ const Error = () => {
                 </div>
                 <div>
 
-                <h1 className='text-6xl font-bold mb-5'>Oops!</h1>
-                <p className='text-4xl font-semibold'>Sorry, an unexpected error has occurred.</p>
-                <p className='text-2xl font-semibold'>
-                    {error.statusText || error.message}
-                </p>
+                    <h1 className='text-6xl font-bold mb-5'>Oops!</h1>
+                    <p className='text-4xl font-semibold'>Sorry, an unexpected error has occurred.</p>
+                    <p className='text-2xl font-semibold'>
+                        {error.statusText || error.message}
+                    </p>
                 </div>
 
             </div>

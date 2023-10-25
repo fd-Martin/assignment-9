@@ -39,7 +39,7 @@ const Featuredjob = ({ job }) => {
                     </button>
                 </div>
             </div>
-            
+
         </div>
     );
 };

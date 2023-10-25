@@ -3,7 +3,7 @@ import Category from '../Category/Category';
 import { useLoaderData } from 'react-router-dom';
 
 const CategorySection = () => {
-    const {categories} = useLoaderData();
+    const { categories } = useLoaderData();
     return (
         <div>
             <div className='text-center py-6 w-11/12 mx-auto'>

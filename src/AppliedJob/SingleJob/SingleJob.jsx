@@ -22,7 +22,7 @@ const SingleJob = ({ job }) => {
                         <h2 className='font-bold'>{companyName}</h2>
                         <h2>{jobTitle}</h2>
                         {
-                            jobType.map((job,i) => <button className='border-2 border-violet-500 rounded-md text-violet-500 font-bold px-2 py-1 mr-2 my-2' key={i}>{job}</button>)
+                            jobType.map((job, i) => <button className='border-2 border-violet-500 rounded-md text-violet-500 font-bold px-2 py-1 mr-2 my-2' key={i}>{job}</button>)
                         }
 
                         <div className='flex flex-col md:flex-row gap-4 py-1'>

@@ -16,7 +16,7 @@ const FeaturedJobSection = () => {
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-3 max-w-4xl justify-items-start mx-auto my-5'>
                 {
-                   jobs.slice(0, seeMore?6:4).map(job => <Featuredjob key={job.id} job={job}></Featuredjob>)
+                    jobs.slice(0, seeMore ? 6 : 4).map(job => <Featuredjob key={job.id} job={job}></Featuredjob>)
                 }
             </div>
             <div className=' max-w-4xl mx-auto my-5 grid grid-cols-1 place-content-center'>

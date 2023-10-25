@@ -14,7 +14,7 @@ const Statistic = () => {
 
             <div className='w-full h-64 mx-auto'>
                 <ResponsiveContainer >
-                    <AreaChart  data={data} margin={{ top: 50, right: 20, bottom: 5, left: 0 }}>
+                    <AreaChart data={data} margin={{ top: 50, right: 20, bottom: 5, left: 0 }}>
                         <Area type="monotone" dataKey="mark" stroke="#000000" />
                         <CartesianGrid stroke="#000" strokeDasharray="5 5" />
                         <XAxis dataKey="name" />
