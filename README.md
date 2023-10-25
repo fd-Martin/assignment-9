@@ -19,5 +19,5 @@ JobLagbe is a web-based  job hiring website
 
 ## Live Link
 
-https://magical-hamster-0565db.netlify.app/job
+https://magical-hamster-0565db.netlify.app
 
