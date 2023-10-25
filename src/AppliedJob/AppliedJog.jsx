@@ -8,7 +8,6 @@ import Nojob from './NoJob/Nojob';
 const AppliedJob = () => {
     const savedJob = useLoaderData();
 
-    console.log(savedJob.length);
     return (
         <div>
             <div className="container max-w-6xl mx-auto px-5 py-0 bg-violet-50 ">
@@ -27,7 +26,7 @@ const AppliedJob = () => {
 
                 {savedJob.length === 0 ? <Nojob></Nojob> :
 
-                    savedJob.map(job => <SingleJob job={job}></SingleJob>)
+                    savedJob.map((job,i) => <SingleJob job={job} key={i}></SingleJob>)
 
                 }
 

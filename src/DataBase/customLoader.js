@@ -4,7 +4,6 @@ const appliedJobLoader = async () => {
     const loadedJobs = await fetch('/featuredJobDaba.json');
     const jobDatas = await loadedJobs.json();
     const storedJob = getShoppingCart();
-    console.log(storedJob);
     const savedJob = [];
 
     for (const id in storedJob) {

@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import Featuredjob from '../featuredJob/featuredjob';
 
 const FeaturedJobSection = () => {
     const { jobs } = useLoaderData();
+    const [seeMore, setSeeMore] = useState(false);
+    const handleShowAll = () => {
+        setSeeMore(!seeMore);
+    }
     return (
         <div className='featuredJobs'>
             <div className='text-center py-6 w-11/12 mx-auto'>
@@ -12,10 +16,18 @@ const FeaturedJobSection = () => {
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-3 max-w-4xl justify-items-start mx-auto my-5'>
                 {
-                    jobs.map(job => <Featuredjob key={job.id} job={job}></Featuredjob>)
+                   jobs.slice(0, seeMore?6:4).map(job => <Featuredjob key={job.id} job={job}></Featuredjob>)
                 }
+            </div>
+            <div className=' max-w-4xl mx-auto my-5 grid grid-cols-1 place-content-center'>
+                <button className=' bg-gradient-to-r  from-blue-500 to-purple-500 text-base text-white px-5 py-2 mx-auto  rounded-md' onClick={handleShowAll} >
+                    {
+                        seeMore ? "See Less" : "See More"
+                    }
+                </button>
 
             </div>
+
         </div>
     );
 };

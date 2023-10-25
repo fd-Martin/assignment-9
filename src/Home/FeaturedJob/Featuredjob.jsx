@@ -2,14 +2,19 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Featuredjob = ({ job }) => {
-    // console.log(job);
-    const { id, companyLogo, jobTitle, companyName, location, salary } = job;
+    const { id, companyLogo, jobTitle, jobType, companyName, location, salary } = job;
+
     return (
         <div className='w-4/5 mx-auto md:w-full  '>
             <div className=' rounded-md border-2   w-full p-5 '>
                 <img src={companyLogo} className="rounded-xl w-44 h-44 p-4 mx-auto md:mx-0" alt="" />
                 <h2>{companyName}</h2>
                 <h2>{jobTitle}</h2>
+
+                {
+                    jobType.map((job, i) => <button className='border-2 border-violet-500 text-violet-500 rounded-md font-bold px-2 py-1 mr-2 my-2' key={i}>{job}</button>)
+                }
+
                 <div className='flex flex-col md:flex-row gap-4 py-1'>
                     <div className='flex  flex-row'>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
@@ -34,6 +39,7 @@ const Featuredjob = ({ job }) => {
                     </button>
                 </div>
             </div>
+            
         </div>
     );
 };
