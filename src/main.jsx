@@ -7,7 +7,6 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
-import Job from './Job/Job.jsx';
 import Home from './Home/Home.jsx';
 import Statistic from './Statistic/Statistic.jsx';
 import Blog from './Blog/Blog.jsx';
